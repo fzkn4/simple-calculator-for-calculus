@@ -1,3 +1,6 @@
+using Guna.UI2.WinForms;
+using System.Configuration;
+
 namespace calcu
 {
     public partial class Form1 : Form
@@ -9,19 +12,34 @@ namespace calcu
 
         private void calculate_Click(object sender, EventArgs e)
         {
-            calculate_statement(input.Text);
-            statement.Text = input.Text;
+            if (input.Text.Length !> 0)
+            {
+                calculate_statement(input.Text);
+                statement.Text = input.Text;
+                input.Clear();
+                valueOfX.Clear();
+            }
+            else
+            {
+                input.Clear();
+                valueOfX.Clear();
+                result.Text = "0";
+                statement.Text = "0";
+            }
+            copy_to_clipboard.Enabled = true;
+
+
         }
 
         private void calculate_statement(string statement)
         {
             string[] s = statement.Split(' ');
-            
+
             double ans = calc_helper(s[0], Convert.ToDouble(valueOfX.Text));
             double carry = calc_helper(s[2], Convert.ToDouble(valueOfX.Text));
             for (int i = 1; i < s.Length; i++)
             {
-                if (i%2 == 0)
+                if (i % 2 == 0)
                 {
                     carry = calc_helper(s[i], Convert.ToDouble(valueOfX.Text));
                 }
@@ -60,9 +78,9 @@ namespace calcu
                     result = calculates(statement, x_value);
                 }
             }
-            
+
             return result;
-            
+
         }
         private double calculates(string statement, double xvalue)
         {
@@ -82,10 +100,10 @@ namespace calcu
             {
                 case '+':
                     return num1 + num2;
-                break;
+                    break;
                 case '-':
                     return num1 - num2;
-                break;
+                    break;
                 default:
                     throw new NotImplementedException();
             }
@@ -94,6 +112,12 @@ namespace calcu
         private void calculate_fraction()
         {
 
+        }
+
+        private void copy_to_clipboard_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(statement.Text);
+            copy_to_clipboard.Enabled = false;
         }
     }
 }

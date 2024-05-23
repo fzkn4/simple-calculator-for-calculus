@@ -19,3 +19,5 @@ C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\calcu\calcu\obj\Debug\net6.0-windows\ref
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\calcu\calcu\obj\Debug\net6.0-windows\calcu.pdb
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\calcu\calcu\obj\Debug\net6.0-windows\calcu.genruntimeconfig.cache
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\calcu\calcu\obj\Debug\net6.0-windows\ref\calcu.dll
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\calcu\calcu\obj\Debug\net6.0-windows\calcu.sourcelink.json
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\calcu\calcu\obj\Debug\net6.0-windows\calcu.Properties.Resources.resources

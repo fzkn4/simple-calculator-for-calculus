@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\calcu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7814A0A7-2DF8-4773-8769-1C2AC5E696FA}|calcu\\calcu.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\calcu\\calcu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7814A0A7-2DF8-4773-8769-1C2AC5E696FA}|calcu\\calcu.csproj|solutionrelative:calcu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7814A0A7-2DF8-4773-8769-1C2AC5E696FA}|calcu\\calcu.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\calcu\\calcu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7814A0A7-2DF8-4773-8769-1C2AC5E696FA}|calcu\\calcu.csproj|solutionrelative:calcu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7814A0A7-2DF8-4773-8769-1C2AC5E696FA}|calcu\\calcu.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\calcu\\calcu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7814A0A7-2DF8-4773-8769-1C2AC5E696FA}|calcu\\calcu.csproj|solutionrelative:calcu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\calcu\\calcu\\Form1.cs",
               "RelativeDocumentMoniker": "calcu\\Form1.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\calcu\\calcu\\Form1.cs",
               "RelativeToolTip": "calcu\\Form1.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAmwF8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T07:00:03.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\calcu\\calcu\\Form1.cs",
               "RelativeDocumentMoniker": "calcu\\Form1.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\calcu\\calcu\\Form1.cs [Design]",
               "RelativeToolTip": "calcu\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T06:38:39.313Z"
+              "WhenOpened": "2024-05-22T06:38:39.313Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
