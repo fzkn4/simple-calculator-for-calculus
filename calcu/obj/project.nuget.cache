@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AGgtKo732UB1mUXn/58Evxu8QcJNy4FA8XcP1g0GWKOWb7tHQPeOanxUtJxZCzP69nr//mc+McNU4AFjBIZYWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\calcu\\calcu\\calcu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
